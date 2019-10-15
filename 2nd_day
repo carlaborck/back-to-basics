@@ -1,0 +1,61 @@
+#name = "John"
+#print ("Hello, %s!" %name)
+
+#name = "John"
+#age = 23
+#print ("%s is %d years old." % (name,age))
+
+#mylist = [1,2,3]
+#print ("A list: %s" %mylist)
+
+#Here are some basic argument specifiers you should know:
+#%s - String (or any object with a string representation, like numbers)
+#%d - Integers
+#%f - Floating point numbers
+#%.<number of digits>f - Floating point numbers with a fixed amount of digits to the right of the dot.
+#%x/%X - Integers in hex representation (lowercase/uppercase)
+
+#data = ("John", "Doe", 53.44)
+#format_string = ("Hello %s %s. Your current balance is $%s.")
+#print (format_string % data)
+
+#astring = "Hello world!"
+#astring2 = 'Hello world!'
+
+#astring = "Hello world!"
+#print ("sinle quotes are ' '")
+#print(len(astring))
+
+#astring = "Hello world!"
+#print(astring.index("o"))
+
+#astring = "Hello world!"
+#print(astring.index("l"))
+
+#astring = "Hello world!"
+#print (astring[3:7])
+
+#astring = "Hello world!"
+#print (astring[3:7:2])
+
+#astring = "Hello world!"
+#print (astring[3:7:1])
+
+#astring = "Hello world!"
+#print (astring[::-1])
+
+#astring = "Hello world!"
+#print (astring.upper())
+#print (astring.lower())
+
+#astring = "Hello world!"
+#print (astring.startswith("Hello"))
+#print (astring.endswith("hsuahsua"))
+
+#astring = "Hello world!"
+#print (astring.split(" "))
+
+#Lenght should be 20
+s = "Almost any string do"
+print ("Lenght of s = %d" %len(s))
+
